@@ -1,0 +1,697 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>West Pacific Bridge — US Sales &amp; Brand Operations for Chinese Manufacturers</title>
+<meta name="description" content="West Pacific Bridge connects Chinese manufacturers with the US market, and American businesses with Chinese factories. Amazon operations, US representation, market testing, sourcing and production support.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 26 26'%3E%3Crect width='26' height='26' rx='6' fill='%23111111'/%3E%3Cpath d='M3 18c4 0 4-8 10-8s6 8 10 8' stroke='%23f5f1ec' stroke-width='2.2' fill='none' stroke-linecap='round'/%3E%3Ccircle cx='3' cy='18' r='2.2' fill='%23ff5600'/%3E%3Ccircle cx='23' cy='18' r='2.2' fill='%23ff5600'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --ink:#111111;
+  --ink-muted:#626260;
+  --ink-subtle:#7b7b78;
+  --canvas:#f5f1ec;
+  --surface:#ffffff;
+  --surface-2:#ebe7e1;
+  --hairline:#d3cec6;
+  --hairline-soft:#ebe7e1;
+  --black:#000000;
+  --orange:#ff5600;
+  --r-xs:4px; --r-md:8px; --r-lg:12px; --r-xl:16px; --r-xxl:24px; --r-pill:9999px;
+  --font:"Geist","Noto Sans SC",ui-sans-serif,system-ui,sans-serif;
+  --maxw:1240px;
+}
+html[lang="zh"]{ --font:"Noto Sans SC","Geist",ui-sans-serif,system-ui,sans-serif; }
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;background:var(--canvas);color:var(--ink);
+  font-family:var(--font);font-size:16px;line-height:1.5;
+  -webkit-font-smoothing:antialiased;
+}
+html[lang="zh"] body{line-height:1.8;letter-spacing:.01em}
+img{max-width:100%}
+.wrap{max-width:var(--maxw);margin:0 auto;padding:0 32px}
+section{position:relative}
+
+/* ---------- nav ---------- */
+header{
+  position:sticky;top:0;z-index:60;background:rgba(245,241,236,.86);
+  backdrop-filter:blur(12px);border-bottom:1px solid var(--hairline);
+}
+.nav{display:flex;align-items:center;gap:26px;height:68px}
+.mark{display:flex;align-items:center;gap:9px;text-decoration:none;margin-right:auto;color:var(--ink)}
+.mark svg{flex:0 0 auto}
+.mark b{font-weight:600;font-size:16.5px;letter-spacing:-.03em;white-space:nowrap}
+.nav a.lnk{
+  color:var(--ink-muted);text-decoration:none;font-size:15px;font-weight:500;
+  transition:color .18s;white-space:nowrap;
+}
+.nav a.lnk:hover{color:var(--ink)}
+.langtog{
+  display:flex;align-items:center;background:var(--surface-2);
+  border-radius:var(--r-pill);padding:3px;gap:2px;
+}
+.langtog button{
+  font-family:var(--font);font-size:13.5px;font-weight:500;cursor:pointer;
+  border:0;background:transparent;color:var(--ink-muted);padding:6px 15px;
+  border-radius:var(--r-pill);transition:background .2s,color .2s;line-height:1.2;
+}
+.langtog button[aria-pressed="true"]{background:var(--ink);color:#fff}
+.langtog button[aria-pressed="false"]:hover{color:var(--ink)}
+
+/* ---------- type ---------- */
+h1{
+  font-size:clamp(40px,6vw,72px);font-weight:500;line-height:1.05;
+  letter-spacing:-.028em;margin:0 0 26px;max-width:17ch;
+}
+html[lang="zh"] h1{line-height:1.22;letter-spacing:-.01em;max-width:20ch;font-weight:700}
+h2{
+  font-size:clamp(30px,3.8vw,50px);font-weight:500;line-height:1.1;
+  letter-spacing:-.026em;margin:0 0 20px;
+}
+html[lang="zh"] h2{line-height:1.32;letter-spacing:-.005em;font-weight:700}
+.eyebrow{
+  font-size:14px;font-weight:500;color:var(--orange);margin:0 0 20px;letter-spacing:0;
+}
+.kicker{font-size:14px;font-weight:500;color:var(--ink-subtle);margin:0 0 18px}
+.sub{font-size:19px;font-weight:400;color:var(--ink-muted);max-width:60ch;margin:0;line-height:1.45}
+html[lang="zh"] .sub{line-height:1.8}
+
+/* ---------- hero ---------- */
+.hero{padding:96px 0 0}
+.hero p.lede{font-size:19px;line-height:1.5;color:var(--ink-muted);max-width:58ch;margin:0 0 34px}
+html[lang="zh"] .hero p.lede{line-height:1.8}
+.ctas{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:64px}
+.btn{
+  font-family:var(--font);font-size:15px;font-weight:500;text-decoration:none;
+  padding:12px 20px;border-radius:var(--r-md);display:inline-block;
+  transition:background .18s,border-color .18s,color .18s;
+}
+.btn-p{background:var(--ink);color:#fff;border:1px solid var(--ink)}
+.btn-p:hover{background:#2e2e2c;border-color:#2e2e2c}
+.btn-s{background:var(--surface);color:var(--ink);border:1px solid var(--hairline)}
+.btn-s:hover{border-color:var(--ink)}
+.btn-o{background:var(--orange);color:#fff;border:1px solid var(--orange)}
+.btn-o:hover{background:#e64d00;border-color:#e64d00}
+
+/* bridge as the "product" card */
+.bridgecard{
+  background:var(--surface);border:1px solid var(--hairline);border-radius:var(--r-xl);
+  padding:40px 40px 26px;margin-bottom:0;
+}
+.bridgecard svg{width:100%;height:auto;display:block;overflow:visible}
+.bridgecard .span-path{
+  stroke:var(--ink);stroke-width:1.5;fill:none;
+  stroke-dasharray:1400;stroke-dashoffset:1400;
+  animation:draw 2s cubic-bezier(.65,0,.35,1) .4s forwards;
+}
+.bridgecard .cable{stroke:var(--hairline);stroke-width:1;opacity:0;animation:fadein .7s ease 1.7s forwards}
+.bridgecard .anchor{fill:var(--orange);opacity:0;animation:fadein .5s ease 1.5s forwards}
+@keyframes draw{to{stroke-dashoffset:0}}
+@keyframes fadein{to{opacity:1}}
+.bridge-ends{
+  display:flex;justify-content:space-between;margin-top:12px;
+  font-size:13.5px;font-weight:500;color:var(--ink-subtle);
+}
+
+/* ---------- bands ---------- */
+.band{padding:96px 0}
+.band-white{background:var(--surface)}
+.band-black{background:var(--black);color:#fff}
+.band-black .kicker{color:var(--orange)}
+.band-black .sub{color:#9c9fa5}
+
+/* ---------- direction split ---------- */
+.dirs{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-top:48px}
+.dir{
+  background:var(--surface);border:1px solid var(--hairline);border-radius:var(--r-lg);
+  padding:34px 32px;
+}
+.band-white .dir{background:var(--canvas);border-color:var(--hairline)}
+.dir .arrow{
+  font-size:13px;font-weight:500;display:inline-block;margin-bottom:14px;
+  padding:5px 11px;border-radius:var(--r-xs);
+}
+.arrow-a{background:var(--orange);color:#fff}
+.arrow-b{background:var(--ink);color:#fff}
+.dir h3{font-size:24px;font-weight:500;margin:0 0 12px;letter-spacing:-.02em;line-height:1.2}
+html[lang="zh"] .dir h3{font-weight:700;line-height:1.4}
+.dir p{margin:0;font-size:16px;line-height:1.55;color:var(--ink-muted)}
+html[lang="zh"] .dir p{line-height:1.8}
+
+/* ---------- service groups ---------- */
+.dirlabel{display:flex;align-items:center;gap:16px;margin:0 0 28px}
+.dirlabel .pip{
+  font-size:13px;font-weight:500;padding:6px 13px;border-radius:var(--r-xs);white-space:nowrap;
+}
+.pip-a{background:var(--orange);color:#fff}
+.pip-b{background:var(--ink);color:#fff}
+.dirlabel .rule{height:1px;background:var(--hairline);flex:1}
+
+.groups{display:grid;grid-template-columns:repeat(2,1fr);gap:16px;margin-bottom:64px}
+.grp{
+  background:var(--surface);border:1px solid var(--hairline);border-radius:var(--r-lg);
+  padding:28px 28px 24px;transition:border-color .2s;
+}
+.band-white .grp{background:var(--canvas)}
+.grp:hover{border-color:var(--ink)}
+.grp h4{font-size:21px;font-weight:500;margin:0 0 16px;letter-spacing:-.02em;line-height:1.25}
+html[lang="zh"] .grp h4{font-weight:700}
+.grp ul{list-style:none;margin:0;padding:0}
+.grp li{
+  position:relative;padding:8px 0 8px 20px;font-size:15px;color:var(--ink-muted);
+  line-height:1.5;border-top:1px solid var(--hairline-soft);
+}
+.band-white .grp li{border-top-color:var(--hairline)}
+.grp li:first-child{border-top:0}
+.grp li::before{
+  content:"";position:absolute;left:1px;top:16px;width:7px;height:1.5px;
+  background:var(--orange);border-radius:1px;
+}
+.grp.b li::before{background:var(--ink-subtle)}
+
+/* ---------- network (the one black band) ---------- */
+.netgrid{display:flex;flex-wrap:wrap;gap:9px;margin-top:36px}
+.chip{
+  background:#313130;color:#e8e6e2;border-radius:var(--r-xs);
+  padding:9px 16px;font-size:14.5px;font-weight:400;
+}
+
+/* ---------- process ---------- */
+.steps{margin-top:48px;border-top:1px solid var(--hairline)}
+.step{
+  display:grid;grid-template-columns:64px 1fr 1.3fr;gap:26px;align-items:baseline;
+  padding:26px 0;border-bottom:1px solid var(--hairline);
+}
+.step .n{font-size:13.5px;font-weight:500;color:var(--orange)}
+.step h3{font-size:21px;font-weight:500;margin:0;letter-spacing:-.02em;line-height:1.25}
+html[lang="zh"] .step h3{font-weight:700}
+.step p{margin:0;color:var(--ink-muted);font-size:15.5px;line-height:1.55}
+html[lang="zh"] .step p{line-height:1.8}
+
+/* ---------- tiers ---------- */
+.tiers{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-top:44px}
+.tier{
+  background:var(--surface);border:1px solid var(--hairline);border-radius:var(--r-lg);
+  padding:26px 24px;display:flex;flex-direction:column;transition:border-color .2s;
+}
+.band-white .tier{background:var(--canvas)}
+.tier:hover{border-color:var(--ink)}
+.tier.feat{background:var(--ink);border-color:var(--ink);color:#fff}
+.band-white .tier.feat{background:var(--ink)}
+.tier .lvl{font-size:13px;font-weight:500;color:var(--ink-subtle);margin-bottom:12px}
+.tier.feat .lvl{color:var(--orange)}
+.tier h3{font-size:20px;font-weight:500;margin:0 0 11px;letter-spacing:-.02em;line-height:1.25}
+html[lang="zh"] .tier h3{font-weight:700}
+.tier p{margin:0;font-size:14.8px;color:var(--ink-muted);line-height:1.5;flex:1}
+html[lang="zh"] .tier p{line-height:1.75}
+.tier.feat p{color:#9c9fa5}
+
+/* ---------- fee models ---------- */
+.fees{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:16px}
+.fee{background:var(--surface-2);border-radius:var(--r-lg);padding:26px 26px}
+.fee h4{font-size:18px;font-weight:500;margin:0 0 4px;letter-spacing:-.018em}
+html[lang="zh"] .fee h4{font-weight:700}
+.fee .when{font-size:13.5px;font-weight:500;color:var(--orange);margin:0 0 14px}
+.fee p{margin:0;font-size:15px;color:var(--ink-muted);line-height:1.5}
+html[lang="zh"] .fee p{line-height:1.8}
+
+/* ---------- responsibility ---------- */
+.resp{
+  display:grid;grid-template-columns:1fr 1fr;margin-top:44px;
+  border-radius:var(--r-lg);overflow:hidden;border:1px solid var(--hairline);
+  background:var(--surface);
+}
+.resp .col{padding:32px 32px}
+.resp .col+.col{border-left:1px solid var(--hairline)}
+.resp h3{font-size:19px;font-weight:500;margin:0 0 4px;letter-spacing:-.02em}
+html[lang="zh"] .resp h3{font-weight:700}
+.resp .who{font-size:13.5px;font-weight:500;color:var(--ink-subtle);margin:0 0 20px}
+.resp ul{list-style:none;margin:0;padding:0}
+.resp li{
+  padding:11px 0 11px 20px;position:relative;font-size:15.5px;color:var(--ink-muted);
+  border-top:1px solid var(--hairline-soft);line-height:1.5;
+}
+.resp li:first-child{border-top:0}
+.resp li::before{
+  content:"";position:absolute;left:1px;top:19px;width:7px;height:1.5px;
+  background:var(--ink-subtle);border-radius:1px;
+}
+.resp .col+.col li::before{background:var(--orange)}
+
+/* ---------- cta ---------- */
+.cta-band{padding:0 0 96px}
+.ctacard{
+  background:var(--ink);color:#fff;border-radius:var(--r-xxl);padding:64px 56px;
+}
+.ctacard .kicker{color:var(--orange)}
+.ctacard h2{max-width:20ch;margin-bottom:18px}
+.ctacard p{font-size:18px;color:#9c9fa5;max-width:52ch;margin:0 0 30px;line-height:1.5}
+html[lang="zh"] .ctacard p{line-height:1.8}
+
+/* ---------- footer ---------- */
+footer{border-top:1px solid var(--hairline);padding:48px 0 40px;font-size:14px;color:var(--ink-subtle)}
+.fgrid{display:flex;flex-wrap:wrap;gap:30px;align-items:center;justify-content:space-between}
+footer a{color:var(--ink-muted);text-decoration:none}
+footer a:hover{color:var(--ink)}
+.fnote{font-size:13px;color:var(--ink-subtle);margin-top:28px;padding-top:22px;border-top:1px solid var(--hairline-soft)}
+
+/* ---------- reveal ---------- */
+.rv{opacity:0;transform:translateY(14px);transition:opacity .6s cubic-bezier(.2,.8,.3,1),transform .6s cubic-bezier(.2,.8,.3,1)}
+.rv.in{opacity:1;transform:none}
+.hero .rv{animation:riseIn .7s cubic-bezier(.2,.8,.3,1) forwards;transition:none}
+.hero .rv:nth-of-type(1){animation-delay:.04s}
+.hero .rv:nth-of-type(2){animation-delay:.13s}
+.hero .rv:nth-of-type(3){animation-delay:.22s}
+.hero .rv:nth-of-type(4){animation-delay:.31s}
+@keyframes riseIn{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:none}}
+
+@media (max-width:980px){
+  .tiers{grid-template-columns:repeat(2,1fr)}
+  .fees{grid-template-columns:1fr}
+  .step{grid-template-columns:46px 1fr;gap:16px}
+  .step p{grid-column:2}
+  .nav a.lnk{display:none}
+}
+@media (max-width:720px){
+  .wrap{padding:0 20px}
+  .band{padding:68px 0}
+  .hero{padding-top:64px}
+  .nav{gap:12px}
+  .groups,.tiers,.dirs,.resp{grid-template-columns:1fr}
+  .groups{margin-bottom:48px}
+  .resp .col+.col{border-left:0;border-top:1px solid var(--hairline)}
+  .bridgecard{padding:26px 22px 18px}
+  .ctacard{padding:44px 28px;border-radius:var(--r-xl)}
+  .bridge-ends{font-size:12px}
+}
+@media (prefers-reduced-motion:reduce){
+  *{animation-duration:.001s !important;transition-duration:.001s !important}
+  .rv{opacity:1;transform:none}
+  .bridgecard .span-path{stroke-dashoffset:0}
+  .bridgecard .cable,.bridgecard .anchor{opacity:1}
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap nav">
+    <a class="mark" href="#top">
+      <svg width="24" height="24" viewBox="0 0 26 26" fill="none" aria-hidden="true">
+        <path d="M2 19c4.5 0 4.5-9 11-9s6.5 9 11 9" stroke="#111111" stroke-width="1.8" stroke-linecap="round"/>
+        <circle cx="2" cy="19" r="2.2" fill="#ff5600"/>
+        <circle cx="24" cy="19" r="2.2" fill="#ff5600"/>
+      </svg>
+      <b>West Pacific Bridge</b>
+    </a>
+    <a class="lnk" href="#services" data-i18n="nav.services">Services</a>
+    <a class="lnk" href="#network" data-i18n="nav.network">Factory network</a>
+    <a class="lnk" href="#process" data-i18n="nav.process">How it works</a>
+    <a class="lnk" href="#engagement" data-i18n="nav.engagement">Engagement</a>
+    <a class="lnk" href="#contact" data-i18n="nav.contact">Contact</a>
+    <div class="langtog" role="group" aria-label="Language / 语言">
+      <button type="button" data-lang="en" aria-pressed="true">EN</button>
+      <button type="button" data-lang="zh" aria-pressed="false">中文</button>
+    </div>
+  </div>
+</header>
+
+<section class="hero" id="top">
+  <div class="wrap">
+    <p class="eyebrow rv" data-i18n="hero.eyebrow">US sales and brand operations</p>
+    <h1 class="rv"><span data-i18n="hero.h1a">You build it.</span> <span data-i18n="hero.h1b">We sell it in America.</span></h1>
+    <p class="lede rv" data-i18n="hero.lede">West Pacific Bridge connects Chinese manufacturers with the US market — and American businesses with Chinese factories. We handle the selling motion, the representation and the sourcing, so trade moves in both directions without either side building a team abroad.</p>
+    <div class="ctas rv">
+      <a class="btn btn-p" href="#contact" data-i18n="hero.cta1">Start a conversation</a>
+      <a class="btn btn-s" href="#services" data-i18n="hero.cta2">See what we do</a>
+    </div>
+  </div>
+  <div class="wrap">
+    <div class="bridgecard rv">
+      <svg viewBox="0 0 1200 120" preserveAspectRatio="none" aria-hidden="true">
+        <line class="cable" x1="150" y1="104" x2="150" y2="56"/>
+        <line class="cable" x1="350" y1="104" x2="350" y2="30"/>
+        <line class="cable" x1="600" y1="104" x2="600" y2="20"/>
+        <line class="cable" x1="850" y1="104" x2="850" y2="30"/>
+        <line class="cable" x1="1050" y1="104" x2="1050" y2="56"/>
+        <path class="span-path" d="M0 104 C 240 104, 300 18, 600 18 C 900 18, 960 104, 1200 104"/>
+        <circle class="anchor" cx="4" cy="104" r="5"/>
+        <circle class="anchor" cx="1196" cy="104" r="5"/>
+      </svg>
+      <div class="bridge-ends">
+        <span data-i18n="bridge.l">Chinese manufacturing</span>
+        <span data-i18n="bridge.r">The American market</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="band">
+  <div class="wrap">
+    <p class="kicker rv" data-i18n="pos.kicker">The gap we close</p>
+    <h2 class="rv" data-i18n="pos.h2">Manufacturing is solved. Selling is not.</h2>
+    <p class="sub rv" data-i18n="pos.sub">Most factories that try to enter the US market do not fail on product quality. They fail because selling in America is a separate discipline — one that runs on US consumer language, marketplace mechanics, advertising spend and buyer relationships on the ground.</p>
+    <div class="dirs">
+      <div class="dir rv">
+        <span class="arrow arrow-a" data-i18n="dir.a.k">China → USA</span>
+        <h3 data-i18n="dir.a.h">Enter and sell in the United States</h3>
+        <p data-i18n="dir.a.p">For manufacturers who can produce competitively but have no route to the American consumer. We become the sales arm: listings, brand, advertising, and a physical presence that meets US buyers in person.</p>
+      </div>
+      <div class="dir rv">
+        <span class="arrow arrow-b" data-i18n="dir.b.k">USA → China</span>
+        <h3 data-i18n="dir.b.h">Source directly from the factory floor</h3>
+        <p data-i18n="dir.b.p">For American businesses who want factory pricing without the intermediary markup. We find the manufacturer, negotiate in Mandarin, manage the samples and stay on the production line until it ships.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="band band-white" id="services">
+  <div class="wrap">
+    <p class="kicker rv" data-i18n="svc.kicker">Services</p>
+    <h2 class="rv" data-i18n="svc.h2">What we actually do.</h2>
+    <p class="sub rv" style="margin-bottom:52px" data-i18n="svc.sub">Each service can be engaged on its own, or combined into a full engagement. Everything below is delivered directly by our team.</p>
+
+    <div class="dirlabel rv"><span class="pip pip-a" data-i18n="svc.a.label">China → USA</span><span class="rule"></span></div>
+    <div class="groups">
+      <div class="grp rv">
+        <h4 data-i18n="g1.h">Amazon &amp; e-commerce</h4>
+        <ul>
+          <li data-i18n="g1.1">Amazon FBA and FBM account setup</li>
+          <li data-i18n="g1.2">Product listing creation and optimisation</li>
+          <li data-i18n="g1.3">Amazon SEO and keyword research</li>
+          <li data-i18n="g1.4">Amazon PPC advertising management</li>
+          <li data-i18n="g1.5">Competitor and pricing research</li>
+          <li data-i18n="g1.6">Expansion to Walmart and other US retail channels</li>
+        </ul>
+      </div>
+      <div class="grp rv">
+        <h4 data-i18n="g2.h">US product representation</h4>
+        <ul>
+          <li data-i18n="g2.1">Product samples held in Southern California</li>
+          <li data-i18n="g2.2">In-person product demonstrations for US buyers</li>
+          <li data-i18n="g2.3">Buyer meetings across San Diego, Orange County and Los Angeles</li>
+          <li data-i18n="g2.4">Sample delivery to interested buyers</li>
+          <li data-i18n="g2.5">Representation at trade shows and industry events</li>
+          <li data-i18n="g2.6">US buyer feedback collected and reported back to you</li>
+        </ul>
+      </div>
+      <div class="grp rv">
+        <h4 data-i18n="g3.h">US market testing</h4>
+        <ul>
+          <li data-i18n="g3.1">Competitor analysis</li>
+          <li data-i18n="g3.2">US pricing research</li>
+          <li data-i18n="g3.3">Amazon category and demand research</li>
+          <li data-i18n="g3.4">Customer review analysis</li>
+          <li data-i18n="g3.5">Product positioning</li>
+          <li data-i18n="g3.6">Packaging and branding assessment</li>
+          <li data-i18n="g3.7">A written US Market Evaluation Report</li>
+        </ul>
+      </div>
+      <div class="grp rv">
+        <h4 data-i18n="g4.h">Marketing &amp; localisation</h4>
+        <ul>
+          <li data-i18n="g4.1">Product photography and video</li>
+          <li data-i18n="g4.2">Listing images and infographics</li>
+          <li data-i18n="g4.3">US-focused product descriptions</li>
+          <li data-i18n="g4.4">Packaging and instruction localisation</li>
+          <li data-i18n="g4.5">Social media content and account setup</li>
+          <li data-i18n="g4.6">Influencer and UGC coordination</li>
+          <li data-i18n="g4.7">Marketplace and paid social advertising</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="dirlabel rv"><span class="pip pip-b" data-i18n="svc.b.label">USA → China</span><span class="rule"></span></div>
+    <div class="groups">
+      <div class="grp b rv">
+        <h4 data-i18n="g5.h">Factory sourcing</h4>
+        <ul>
+          <li data-i18n="g5.1">Identify suitable Chinese manufacturers</li>
+          <li data-i18n="g5.2">Obtain and compare factory quotes</li>
+          <li data-i18n="g5.3">Compare pricing and minimum order quantities</li>
+          <li data-i18n="g5.4">Direct factory communication in Mandarin</li>
+          <li data-i18n="g5.5">Price and MOQ negotiation</li>
+          <li data-i18n="g5.6">Sample coordination</li>
+          <li data-i18n="g5.7">Private-label sourcing</li>
+        </ul>
+      </div>
+      <div class="grp b rv">
+        <h4 data-i18n="g6.h">Product development</h4>
+        <ul>
+          <li data-i18n="g6.1">Match product ideas to capable manufacturers</li>
+          <li data-i18n="g6.2">Prototype and sample coordination</li>
+          <li data-i18n="g6.3">Materials, colours, dimensions and features</li>
+          <li data-i18n="g6.4">Logo and branding customisation</li>
+          <li data-i18n="g6.5">Custom packaging development</li>
+        </ul>
+      </div>
+      <div class="grp b rv">
+        <h4 data-i18n="g7.h">Production support</h4>
+        <ul>
+          <li data-i18n="g7.1">Ongoing factory communication</li>
+          <li data-i18n="g7.2">Production status updates</li>
+          <li data-i18n="g7.3">Quality control coordination</li>
+          <li data-i18n="g7.4">Pre-shipment inspection coordination</li>
+          <li data-i18n="g7.5">Packaging and specification verification</li>
+        </ul>
+      </div>
+      <div class="grp b rv">
+        <h4 data-i18n="g8.h">Shipping &amp; logistics support</h4>
+        <ul>
+          <li data-i18n="g8.1">Freight quote comparison across carriers</li>
+          <li data-i18n="g8.2">Amazon FBA shipment routing and coordination</li>
+          <li data-i18n="g8.3">US warehouse coordination for non-FBA inventory</li>
+          <li data-i18n="g8.4">Customs and import documentation support</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="band band-black" id="network">
+  <div class="wrap">
+    <p class="kicker rv" data-i18n="net.kicker">Factory network</p>
+    <h2 class="rv" data-i18n="net.h2">A vetted network, not a directory.</h2>
+    <p class="sub rv" data-i18n="net.sub">We maintain an internal network of manufacturers we have worked with directly. Every factory in it is recorded against the criteria that actually decide whether a match will work.</p>
+    <div class="netgrid rv">
+      <span class="chip" data-i18n="net.1">Product category</span>
+      <span class="chip" data-i18n="net.2">Pricing</span>
+      <span class="chip" data-i18n="net.3">Minimum order quantity</span>
+      <span class="chip" data-i18n="net.4">Production capacity</span>
+      <span class="chip" data-i18n="net.5">Lead times</span>
+      <span class="chip" data-i18n="net.6">Certifications</span>
+      <span class="chip" data-i18n="net.7">Customisation capability</span>
+      <span class="chip" data-i18n="net.8">Reliability and past performance</span>
+    </div>
+  </div>
+</section>
+
+<section class="band" id="process">
+  <div class="wrap">
+    <p class="kicker rv" data-i18n="proc.kicker">How it works</p>
+    <h2 class="rv" data-i18n="proc.h2">Four stages, in order.</h2>
+    <p class="sub rv" data-i18n="proc.sub">We do not launch a product before the economics are proven on paper. This sequence exists to stop money being spent on a product that cannot clear its own landed cost.</p>
+    <div class="steps">
+      <div class="step rv"><span class="n">01</span><h3 data-i18n="proc.1.h">Product review</h3><p data-i18n="proc.1.p">We look at your current catalogue and identify which products have a genuine position in the US market — and which do not.</p></div>
+      <div class="step rv"><span class="n">02</span><h3 data-i18n="proc.2.h">Landed cost model</h3><p data-i18n="proc.2.p">Tariffs, freight, marketplace fees, returns and advertising modelled before anything ships. If the margin is not there, we say so at this stage.</p></div>
+      <div class="step rv"><span class="n">03</span><h3 data-i18n="proc.3.h">Brand &amp; launch build</h3><p data-i18n="proc.3.p">Brand, packaging, photography, listing and storefront are produced together, then the product goes live with a defined launch plan.</p></div>
+      <div class="step rv"><span class="n">04</span><h3 data-i18n="proc.4.h">Operate &amp; scale</h3><p data-i18n="proc.4.p">Ongoing advertising, inventory and account management — with reporting back to you on sell-through, spend and margin.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="band band-white" id="engagement">
+  <div class="wrap">
+    <p class="kicker rv" data-i18n="tier.kicker">Engagement models</p>
+    <h2 class="rv" data-i18n="tier.h2">Four ways to work together.</h2>
+    <p class="sub rv" data-i18n="tier.sub">Most partners begin at the first or second level and move deeper once a product has proven itself in the market.</p>
+    <div class="tiers">
+      <div class="tier rv"><span class="lvl" data-i18n="tier.1.l">Level 01</span><h3 data-i18n="tier.1.h">Setup</h3><p data-i18n="tier.1.p">Brand, photography, listing and storefront produced once and handed over, ready to sell.</p></div>
+      <div class="tier rv"><span class="lvl" data-i18n="tier.2.l">Level 02</span><h3 data-i18n="tier.2.h">Setup &amp; optimisation</h3><p data-i18n="tier.2.p">Everything in Setup, plus an ongoing cycle of listing, keyword and content optimisation after launch.</p></div>
+      <div class="tier rv"><span class="lvl" data-i18n="tier.3.l">Level 03</span><h3 data-i18n="tier.3.h">Managed operations</h3><p data-i18n="tier.3.p">We run the account day to day — advertising, inventory, pricing, customer service and compliance.</p></div>
+      <div class="tier feat rv"><span class="lvl" data-i18n="tier.4.l">Level 04</span><h3 data-i18n="tier.4.h">Full partnership</h3><p data-i18n="tier.4.p">Full service with our compensation tied to results, through profit share or equity in the brand we build together.</p></div>
+    </div>
+    <div class="fees">
+      <div class="fee rv"><h4 data-i18n="fee.1.h">One-time project fees</h4><p class="when" data-i18n="fee.1.w">Per project</p><p data-i18n="fee.1.p">Amazon launches, market research, product sourcing, photography and content, listing creation, product localisation.</p></div>
+      <div class="fee rv"><h4 data-i18n="fee.2.h">Monthly retainer</h4><p class="when" data-i18n="fee.2.w">Ongoing</p><p data-i18n="fee.2.p">US representation, Amazon account management, advertising management, buyer outreach and sales representation.</p></div>
+      <div class="fee rv"><h4 data-i18n="fee.3.h">Commission</h4><p class="when" data-i18n="fee.3.w">Tied to results</p><p data-i18n="fee.3.p">A percentage of sourcing and purchase orders, or factory referral and representation agreements.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="band">
+  <div class="wrap">
+    <p class="kicker rv" data-i18n="resp.kicker">Division of responsibility</p>
+    <h2 class="rv" data-i18n="resp.h2">Clear lines from day one.</h2>
+    <p class="sub rv" data-i18n="resp.sub">We put this in writing before the first unit sells, so there is no ambiguity later about who is responsible for what.</p>
+    <div class="resp rv">
+      <div class="col">
+        <p class="who" data-i18n="resp.a.who">You</p>
+        <h3 data-i18n="resp.a.h">The factory</h3>
+        <ul>
+          <li data-i18n="resp.a.1">Manufacturing and quality control</li>
+          <li data-i18n="resp.a.2">Production capacity and lead times</li>
+          <li data-i18n="resp.a.3">Product specification and revisions</li>
+          <li data-i18n="resp.a.4">Export documentation from origin</li>
+        </ul>
+      </div>
+      <div class="col">
+        <p class="who" data-i18n="resp.b.who">Us</p>
+        <h3 data-i18n="resp.b.h">West Pacific Bridge</h3>
+        <ul>
+          <li data-i18n="resp.b.1">US brand, packaging and creative</li>
+          <li data-i18n="resp.b.2">Listings, photography and content</li>
+          <li data-i18n="resp.b.3">Advertising spend and account operations</li>
+          <li data-i18n="resp.b.4">US customer service and the customer relationship</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="cta-band" id="contact">
+  <div class="wrap">
+    <div class="ctacard rv">
+      <p class="kicker" data-i18n="cta.kicker">Get in touch</p>
+      <h2 data-i18n="cta.h2">Send us one product. We will tell you honestly whether it can sell here.</h2>
+      <p data-i18n="cta.p">Share a product you already manufacture and we will come back with a landed-cost view and a market assessment — before either of us commits to anything.</p>
+      <div class="ctas" style="margin-bottom:0">
+        <a class="btn btn-o" href="mailto:hello@westpacificbridge.com" data-i18n="cta.btn">Email us</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="fgrid">
+      <a class="mark" href="#top">
+        <svg width="24" height="24" viewBox="0 0 26 26" fill="none" aria-hidden="true">
+          <path d="M2 19c4.5 0 4.5-9 11-9s6.5 9 11 9" stroke="#111111" stroke-width="1.8" stroke-linecap="round"/>
+          <circle cx="2" cy="19" r="2.2" fill="#ff5600"/>
+          <circle cx="24" cy="19" r="2.2" fill="#ff5600"/>
+        </svg>
+        <b>West Pacific Bridge</b>
+      </a>
+      <a href="mailto:hello@westpacificbridge.com">hello@westpacificbridge.com</a>
+    </div>
+    <p class="fnote"><span data-i18n="foot.note">West Pacific Bridge — US sales and brand operations for manufacturers, and direct factory sourcing for American businesses.</span> &copy; <span id="yr"></span></p>
+  </div>
+</footer>
+
+<script>
+var I18N = {
+  en: {},
+  zh: {
+    "nav.services":"服务","nav.network":"工厂资源网络","nav.process":"合作流程","nav.engagement":"合作模式","nav.contact":"联系我们",
+    "hero.eyebrow":"美国销售与品牌运营",
+    "hero.h1a":"您负责制造，","hero.h1b":"我们负责在美国销售。",
+    "hero.lede":"West Pacific Bridge 连接中国制造企业与美国市场，同时协助美国企业直接对接中国工厂。销售、驻美代表与采购环节均由我们承担，让双向贸易无需任何一方在海外自建团队。",
+    "hero.cta1":"联系洽谈","hero.cta2":"查看服务内容",
+    "bridge.l":"中国制造","bridge.r":"美国市场",
+    "pos.kicker":"我们填补的环节",
+    "pos.h2":"制造不是问题，销售才是。",
+    "pos.sub":"多数工厂进入美国市场受挫，并非产品质量不过关，而是因为在美国销售是一门独立的专业——它依赖美式消费语言、平台规则、广告投入，以及本地的买家关系。",
+    "dir.a.k":"中国 → 美国","dir.a.h":"进入并打开美国市场",
+    "dir.a.p":"面向具备成本竞争力、但缺少触达美国消费者渠道的制造企业。我们成为您的销售部门：Listing、品牌、广告投放，以及能够与美国买家当面洽谈的本地团队。",
+    "dir.b.k":"美国 → 中国","dir.b.h":"直接对接工厂采购",
+    "dir.b.p":"面向希望拿到工厂价、跳过中间商加价的美国企业。我们负责寻找制造商、用中文谈判、管理打样，并全程跟进生产直至出货。",
+    "svc.kicker":"服务内容","svc.h2":"我们的具体服务。",
+    "svc.sub":"每项服务均可单独合作，也可组合为全案服务。以下全部由我们团队直接交付。",
+    "svc.a.label":"中国 → 美国","svc.b.label":"美国 → 中国",
+    "g1.h":"亚马逊与电商运营",
+    "g1.1":"亚马逊 FBA / FBM 账户开设协助","g1.2":"Listing 制作与优化","g1.3":"亚马逊 SEO 与关键词调研","g1.4":"亚马逊 PPC 广告管理","g1.5":"竞品与价格调研","g1.6":"拓展至沃尔玛等其他美国零售渠道",
+    "g2.h":"驻美产品代表",
+    "g2.1":"产品样品存放于南加州","g2.2":"面向美国买家的当面产品演示","g2.3":"在圣地亚哥、橙县与洛杉矶与企业洽谈","g2.4":"向意向买家配送样品","g2.5":"代表厂方出席展会与行业活动","g2.6":"收集美国买家反馈并向您汇报",
+    "g3.h":"美国市场测试",
+    "g3.1":"竞品分析","g3.2":"美国市场价格调研","g3.3":"亚马逊品类与需求调研","g3.4":"用户评论分析","g3.5":"产品定位","g3.6":"包装与品牌评估","g3.7":"出具《美国市场评估报告》",
+    "g4.h":"营销与本地化",
+    "g4.1":"产品摄影与视频拍摄","g4.2":"Listing 图片与信息图","g4.3":"面向美国消费者的产品文案","g4.4":"包装与说明书本地化","g4.5":"社交媒体内容与账号搭建","g4.6":"达人与 UGC 内容对接","g4.7":"平台与社交媒体广告投放",
+    "g5.h":"工厂采购对接",
+    "g5.1":"寻找合适的中国制造商","g5.2":"获取并比较工厂报价","g5.3":"比较价格与起订量","g5.4":"以中文直接与工厂沟通","g5.5":"价格与起订量谈判","g5.6":"打样协调","g5.7":"贴牌与自有品牌采购",
+    "g6.h":"产品开发",
+    "g6.1":"将产品构想对接到有能力的制造商","g6.2":"样机与样品协调","g6.3":"材质、颜色、尺寸与功能设定","g6.4":"Logo 与品牌定制","g6.5":"定制包装开发",
+    "g7.h":"生产跟进",
+    "g7.1":"生产期间的持续工厂沟通","g7.2":"生产进度更新","g7.3":"品质管控协调","g7.4":"出货前验货协调","g7.5":"包装与规格核对",
+    "g8.h":"物流与运输支持",
+    "g8.1":"多家承运商运费比价","g8.2":"亚马逊 FBA 头程路线与协调","g8.3":"非 FBA 库存的美国仓储对接","g8.4":"清关与进口文件支持",
+    "net.kicker":"工厂资源网络","net.h2":"经过验证的网络，而非黄页名录。",
+    "net.sub":"我们维护一套由合作过的制造商组成的内部资源网络。每家工厂都按照真正决定匹配成败的维度建档。",
+    "net.1":"产品品类","net.2":"价格区间","net.3":"最小起订量","net.4":"产能","net.5":"交期","net.6":"资质认证","net.7":"定制能力","net.8":"可靠度与过往表现",
+    "proc.kicker":"合作流程","proc.h2":"四个阶段，依序推进。",
+    "proc.sub":"在账面测算证明可行之前，我们不会推动产品上架。这一流程的存在，是为了避免把资金投入到无法覆盖到岸成本的产品上。",
+    "proc.1.h":"产品评估","proc.1.p":"梳理您现有的产品目录，判断哪些型号在美国市场具备真实定位，哪些没有。",
+    "proc.2.h":"到岸成本测算","proc.2.p":"在发货前测算关税、运费、平台佣金、退货率与广告成本。如果利润空间不存在，我们会在这一阶段如实告知。",
+    "proc.3.h":"品牌搭建与上架","proc.3.p":"品牌、包装、摄影、Listing 与独立站同步产出，随后按既定推广方案正式上线。",
+    "proc.4.h":"运营与增长","proc.4.p":"持续的广告投放、库存与账户管理，并就动销、投入与利润情况向您定期汇报。",
+    "tier.kicker":"合作模式","tier.h2":"四种合作方式。",
+    "tier.sub":"多数合作方从第一级或第二级开始，待产品在市场上得到验证后再深入合作。",
+    "tier.1.l":"第一级","tier.1.h":"基础搭建","tier.1.p":"品牌、摄影、Listing 与独立站一次性产出并交付，可直接开始销售。",
+    "tier.2.l":"第二级","tier.2.h":"搭建与优化","tier.2.p":"包含基础搭建的全部内容，并在上线后持续进行 Listing、关键词与内容优化。",
+    "tier.3.l":"第三级","tier.3.h":"全托管运营","tier.3.p":"由我们负责账户的日常运营——广告、库存、定价、客户服务与合规。",
+    "tier.4.l":"第四级","tier.4.h":"深度合作","tier.4.p":"全案服务，我们的回报与业绩挂钩，通过利润分成或共建品牌的股权方式结算。",
+    "fee.1.h":"单项项目费用","fee.1.w":"按项目计费","fee.1.p":"亚马逊上架推广、市场调研、产品采购对接、摄影与内容制作、Listing 制作、产品本地化。",
+    "fee.2.h":"月度服务费","fee.2.w":"持续服务","fee.2.p":"驻美代表、亚马逊账户运营、广告管理、买家开发与销售代表服务。",
+    "fee.3.h":"佣金分成","fee.3.w":"与业绩挂钩","fee.3.p":"按采购订单金额收取一定比例，或采用工厂推荐与代理代表协议的形式结算。",
+    "resp.kicker":"职责划分","resp.h2":"合作之初即划清边界。",
+    "resp.sub":"我们会在第一件产品售出之前以书面形式确认，避免日后就责任归属产生分歧。",
+    "resp.a.who":"贵方","resp.a.h":"工厂","resp.a.1":"生产制造与质量控制","resp.a.2":"产能安排与交期","resp.a.3":"产品规格与改版","resp.a.4":"原产地出口报关文件",
+    "resp.b.who":"我方","resp.b.h":"West Pacific Bridge","resp.b.1":"美国品牌、包装与创意","resp.b.2":"Listing、摄影与内容","resp.b.3":"广告投入与账户运营","resp.b.4":"美国客户服务与客户关系维护",
+    "cta.kicker":"联系我们","cta.h2":"发一款产品给我们，我们会如实告知它能否在美国销售。",
+    "cta.p":"提供一款您已在生产的产品，我们将反馈到岸成本测算与市场评估——在双方作出任何承诺之前。",
+    "cta.btn":"发送邮件",
+    "foot.note":"West Pacific Bridge——为制造企业提供美国销售与品牌运营，并为美国企业提供工厂直采服务。"
+  }
+};
+
+var nodes = document.querySelectorAll("[data-i18n]");
+nodes.forEach(function(n){ I18N.en[n.dataset.i18n] = n.innerHTML; });
+
+function setLang(lang){
+  document.documentElement.lang = lang;
+  var dict = I18N[lang] || I18N.en;
+  nodes.forEach(function(n){
+    var v = dict[n.dataset.i18n];
+    if (v !== undefined) n.innerHTML = v;
+  });
+  document.querySelectorAll(".langtog button").forEach(function(b){
+    b.setAttribute("aria-pressed", String(b.dataset.lang === lang));
+  });
+  document.title = lang === "zh"
+    ? "West Pacific Bridge — 为中国制造企业提供美国销售与品牌运营"
+    : "West Pacific Bridge — US Sales & Brand Operations for Chinese Manufacturers";
+  try { localStorage.setItem("wpb-lang", lang); } catch(e){}
+}
+
+document.querySelectorAll(".langtog button").forEach(function(b){
+  b.addEventListener("click", function(){ setLang(b.dataset.lang); });
+});
+
+try {
+  var saved = localStorage.getItem("wpb-lang");
+  if (saved === "zh") setLang("zh");
+  else if (!saved && (navigator.language || "").toLowerCase().indexOf("zh") === 0) setLang("zh");
+} catch(e){}
+
+var io = new IntersectionObserver(function(entries){
+  entries.forEach(function(e){
+    if (e.isIntersecting){ e.target.classList.add("in"); io.unobserve(e.target); }
+  });
+}, { threshold: .1, rootMargin: "0px 0px -6% 0px" });
+
+document.querySelectorAll("section:not(.hero) .rv").forEach(function(el, i){
+  el.style.transitionDelay = (Math.min(i % 4, 3) * 50) + "ms";
+  io.observe(el);
+});
+
+document.getElementById("yr").textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
